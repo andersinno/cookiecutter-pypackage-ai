@@ -1,4 +1,7 @@
-TEMPLATES=[
+DEBUG = False
+SECRET_KEY = 'xxx'
+
+TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [],
@@ -20,8 +23,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
 ]
-
-DEBUG = False
 
 DATABASES = {
     'default': {
