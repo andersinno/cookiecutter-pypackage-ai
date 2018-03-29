@@ -1,6 +1,5 @@
-
 {
-  "author": "Anders",
+  "author": "Anders Innovations",
   "email": "support@anders.fi",
   "project_name": "Python Package",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
