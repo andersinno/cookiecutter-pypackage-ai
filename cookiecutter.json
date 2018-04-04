@@ -1,9 +1,11 @@
-
 {
-  "author": "Anders",
+  "author": "Anders Innovations",
   "email": "support@anders.fi",
   "project_name": "Python Package",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_slug_dashed": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-') }}",
+  "project_url": "https://github.com/andersinno/{{ cookiecutter.project_slug_dashed }}",
+  "project_keywords": "keywords, separated by, comma",
   "project_short_description": "Python package for...",
   "initial_version": "0.1.0",
   "is_it_django_package": ["no", "yes"],

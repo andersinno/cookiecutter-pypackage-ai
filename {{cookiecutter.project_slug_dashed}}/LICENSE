@@ -1,4 +1,4 @@
-{%- if cookiecutter.license == 'MIT' %}
+{%- if cookiecutter.license == 'MIT' -%}
 MIT License
 
 Copyright (c) {% now 'utc', '%Y' %} Anders Innovations
